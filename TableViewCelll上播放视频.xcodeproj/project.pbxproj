@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402ABE431EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 402ABE421EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.m */; };
+		402ABE461EC1546300D47DF3 /* VideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 402ABE451EC1546300D47DF3 /* VideoItem.m */; };
+		402ABE491EC1546C00D47DF3 /* PlayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 402ABE481EC1546C00D47DF3 /* PlayItem.m */; };
+		402ABE4C1EC1561C00D47DF3 /* SidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 402ABE4B1EC1561C00D47DF3 /* SidModel.m */; };
+		406CED971EC2FE7A002C6C5C /* CCSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 406CED961EC2FE7A002C6C5C /* CCSlider.m */; };
+		40E9A4D81EC0A55D00447763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4D71EC0A55D00447763 /* main.m */; };
+		40E9A4DB1EC0A55D00447763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4DA1EC0A55D00447763 /* AppDelegate.m */; };
+		40E9A4E31EC0A55D00447763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E9A4E21EC0A55D00447763 /* Assets.xcassets */; };
+		40E9A5001EC0A66A00447763 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4EF1EC0A66A00447763 /* HomeViewController.m */; };
+		40E9A5011EC0A66A00447763 /* PlayPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4F11EC0A66A00447763 /* PlayPreviewController.m */; };
+		40E9A5021EC0A66A00447763 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4F41EC0A66A00447763 /* NetworkManager.m */; };
+		40E9A5041EC0A66A00447763 /* PlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4FA1EC0A66A00447763 /* PlayerMaskView.m */; };
+		40E9A5051EC0A66A00447763 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E9A4FC1EC0A66A00447763 /* PlayerView.m */; };
+		7805E104D5C46792E6E44B6F /* libPods-TableViewCelll上播放视频.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8B29523D7AD1AB43983E4 /* libPods-TableViewCelll上播放视频.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22A8B29523D7AD1AB43983E4 /* libPods-TableViewCelll上播放视频.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewCelll上播放视频.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402ABE411EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVideoInfoListPresenter.h; sourceTree = "<group>"; };
+		402ABE421EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVideoInfoListPresenter.m; sourceTree = "<group>"; };
+		402ABE441EC1546300D47DF3 /* VideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItem.h; sourceTree = "<group>"; };
+		402ABE451EC1546300D47DF3 /* VideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItem.m; sourceTree = "<group>"; };
+		402ABE471EC1546C00D47DF3 /* PlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayItem.h; sourceTree = "<group>"; };
+		402ABE481EC1546C00D47DF3 /* PlayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayItem.m; sourceTree = "<group>"; };
+		402ABE4A1EC1561C00D47DF3 /* SidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidModel.h; sourceTree = "<group>"; };
+		402ABE4B1EC1561C00D47DF3 /* SidModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidModel.m; sourceTree = "<group>"; };
+		402ABE4D1EC161DA00D47DF3 /* VideoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPrefixHeader.pch; sourceTree = "<group>"; };
+		406CED951EC2FE7A002C6C5C /* CCSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSlider.h; sourceTree = "<group>"; };
+		406CED961EC2FE7A002C6C5C /* CCSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSlider.m; sourceTree = "<group>"; };
+		40E9A4D31EC0A55D00447763 /* TableViewCelll上播放视频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewCelll上播放视频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E9A4D71EC0A55D00447763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40E9A4D91EC0A55D00447763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40E9A4DA1EC0A55D00447763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40E9A4E21EC0A55D00447763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E9A4E71EC0A55D00447763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E9A4EE1EC0A66A00447763 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		40E9A4EF1EC0A66A00447763 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		40E9A4F01EC0A66A00447763 /* PlayPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayPreviewController.h; sourceTree = "<group>"; };
+		40E9A4F11EC0A66A00447763 /* PlayPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayPreviewController.m; sourceTree = "<group>"; };
+		40E9A4F31EC0A66A00447763 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		40E9A4F41EC0A66A00447763 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		40E9A4F91EC0A66A00447763 /* PlayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerMaskView.h; sourceTree = "<group>"; };
+		40E9A4FA1EC0A66A00447763 /* PlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerMaskView.m; sourceTree = "<group>"; };
+		40E9A4FB1EC0A66A00447763 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		40E9A4FC1EC0A66A00447763 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		6261026111182ED52708E907 /* Pods-TableViewCelll上播放视频.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewCelll上播放视频.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewCelll上播放视频/Pods-TableViewCelll上播放视频.debug.xcconfig"; sourceTree = "<group>"; };
+		89A66BCD51B1DBA6035C9643 /* Pods-TableViewCelll上播放视频.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewCelll上播放视频.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewCelll上播放视频/Pods-TableViewCelll上播放视频.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E9A4D01EC0A55D00447763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7805E104D5C46792E6E44B6F /* libPods-TableViewCelll上播放视频.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402ABE401EC14F7300D47DF3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				402ABE411EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.h */,
+				402ABE421EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		40E9A4CA1EC0A55D00447763 = {
+			isa = PBXGroup;
+			children = (
+				40E9A4D51EC0A55D00447763 /* TableViewCelll上播放视频 */,
+				40E9A4D41EC0A55D00447763 /* Products */,
+				A4680F3C6A7E38CF39F67DF4 /* Pods */,
+				727CA80770A72F26501228A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40E9A4D41EC0A55D00447763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E9A4D31EC0A55D00447763 /* TableViewCelll上播放视频.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E9A4D51EC0A55D00447763 /* TableViewCelll上播放视频 */ = {
+			isa = PBXGroup;
+			children = (
+				40E9A4F21EC0A66A00447763 /* Helper */,
+				40E9A4F81EC0A66A00447763 /* VideoPlayer */,
+				40E9A4F51EC0A66A00447763 /* Model */,
+				40E9A4FD1EC0A66A00447763 /* View */,
+				40E9A4ED1EC0A66A00447763 /* Controller */,
+				402ABE401EC14F7300D47DF3 /* Presenter */,
+				40E9A4D91EC0A55D00447763 /* AppDelegate.h */,
+				40E9A4DA1EC0A55D00447763 /* AppDelegate.m */,
+				40E9A4E21EC0A55D00447763 /* Assets.xcassets */,
+				40E9A4E71EC0A55D00447763 /* Info.plist */,
+				40E9A4D61EC0A55D00447763 /* Supporting Files */,
+			);
+			path = "TableViewCelll上播放视频";
+			sourceTree = "<group>";
+		};
+		40E9A4D61EC0A55D00447763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E9A4D71EC0A55D00447763 /* main.m */,
+				402ABE4D1EC161DA00D47DF3 /* VideoPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E9A4ED1EC0A66A00447763 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40E9A4EE1EC0A66A00447763 /* HomeViewController.h */,
+				40E9A4EF1EC0A66A00447763 /* HomeViewController.m */,
+				40E9A4F01EC0A66A00447763 /* PlayPreviewController.h */,
+				40E9A4F11EC0A66A00447763 /* PlayPreviewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E9A4F21EC0A66A00447763 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				40E9A4F31EC0A66A00447763 /* NetworkManager.h */,
+				40E9A4F41EC0A66A00447763 /* NetworkManager.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		40E9A4F51EC0A66A00447763 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				402ABE441EC1546300D47DF3 /* VideoItem.h */,
+				402ABE451EC1546300D47DF3 /* VideoItem.m */,
+				402ABE4A1EC1561C00D47DF3 /* SidModel.h */,
+				402ABE4B1EC1561C00D47DF3 /* SidModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E9A4F81EC0A66A00447763 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				40E9A4F91EC0A66A00447763 /* PlayerMaskView.h */,
+				40E9A4FA1EC0A66A00447763 /* PlayerMaskView.m */,
+				40E9A4FB1EC0A66A00447763 /* PlayerView.h */,
+				40E9A4FC1EC0A66A00447763 /* PlayerView.m */,
+				406CED951EC2FE7A002C6C5C /* CCSlider.h */,
+				406CED961EC2FE7A002C6C5C /* CCSlider.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		40E9A4FD1EC0A66A00447763 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				402ABE471EC1546C00D47DF3 /* PlayItem.h */,
+				402ABE481EC1546C00D47DF3 /* PlayItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		727CA80770A72F26501228A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A8B29523D7AD1AB43983E4 /* libPods-TableViewCelll上播放视频.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4680F3C6A7E38CF39F67DF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6261026111182ED52708E907 /* Pods-TableViewCelll上播放视频.debug.xcconfig */,
+				89A66BCD51B1DBA6035C9643 /* Pods-TableViewCelll上播放视频.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E9A4D21EC0A55D00447763 /* TableViewCelll上播放视频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E9A4EA1EC0A55D00447763 /* Build configuration list for PBXNativeTarget "TableViewCelll上播放视频" */;
+			buildPhases = (
+				966FD685F16F6FDC7720711A /* [CP] Check Pods Manifest.lock */,
+				40E9A4CF1EC0A55D00447763 /* Sources */,
+				40E9A4D01EC0A55D00447763 /* Frameworks */,
+				40E9A4D11EC0A55D00447763 /* Resources */,
+				BA2522F7A005E035CF6B5824 /* [CP] Embed Pods Frameworks */,
+				96923D4D295BBF53EC6D7BE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewCelll上播放视频";
+			productName = "TableViewCelll上播放视频";
+			productReference = 40E9A4D31EC0A55D00447763 /* TableViewCelll上播放视频.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E9A4CB1EC0A55D00447763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = changcai;
+				TargetAttributes = {
+					40E9A4D21EC0A55D00447763 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ST585KS23M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40E9A4CE1EC0A55D00447763 /* Build configuration list for PBXProject "TableViewCelll上播放视频" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40E9A4CA1EC0A55D00447763;
+			productRefGroup = 40E9A4D41EC0A55D00447763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E9A4D21EC0A55D00447763 /* TableViewCelll上播放视频 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E9A4D11EC0A55D00447763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E9A4E31EC0A55D00447763 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		966FD685F16F6FDC7720711A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96923D4D295BBF53EC6D7BE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewCelll上播放视频/Pods-TableViewCelll上播放视频-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2522F7A005E035CF6B5824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewCelll上播放视频/Pods-TableViewCelll上播放视频-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E9A4CF1EC0A55D00447763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E9A4DB1EC0A55D00447763 /* AppDelegate.m in Sources */,
+				40E9A5011EC0A66A00447763 /* PlayPreviewController.m in Sources */,
+				402ABE4C1EC1561C00D47DF3 /* SidModel.m in Sources */,
+				40E9A4D81EC0A55D00447763 /* main.m in Sources */,
+				40E9A5021EC0A66A00447763 /* NetworkManager.m in Sources */,
+				402ABE491EC1546C00D47DF3 /* PlayItem.m in Sources */,
+				406CED971EC2FE7A002C6C5C /* CCSlider.m in Sources */,
+				402ABE461EC1546300D47DF3 /* VideoItem.m in Sources */,
+				40E9A5001EC0A66A00447763 /* HomeViewController.m in Sources */,
+				402ABE431EC14FAB00D47DF3 /* HomeVideoInfoListPresenter.m in Sources */,
+				40E9A5051EC0A66A00447763 /* PlayerView.m in Sources */,
+				40E9A5041EC0A66A00447763 /* PlayerMaskView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40E9A4E81EC0A55D00447763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40E9A4E91EC0A55D00447763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E9A4EB1EC0A55D00447763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6261026111182ED52708E907 /* Pods-TableViewCelll上播放视频.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TableViewCelll上播放视频/VideoPrefixHeader.pch";
+				INFOPLIST_FILE = "TableViewCelll上播放视频/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangyawei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40E9A4EC1EC0A55D00447763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A66BCD51B1DBA6035C9643 /* Pods-TableViewCelll上播放视频.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TableViewCelll上播放视频/VideoPrefixHeader.pch";
+				INFOPLIST_FILE = "TableViewCelll上播放视频/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangyawei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E9A4CE1EC0A55D00447763 /* Build configuration list for PBXProject "TableViewCelll上播放视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E9A4E81EC0A55D00447763 /* Debug */,
+				40E9A4E91EC0A55D00447763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E9A4EA1EC0A55D00447763 /* Build configuration list for PBXNativeTarget "TableViewCelll上播放视频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E9A4EB1EC0A55D00447763 /* Debug */,
+				40E9A4EC1EC0A55D00447763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E9A4CB1EC0A55D00447763 /* Project object */;
+}
